@@ -1,0 +1,38 @@
+.cart-item {
+  padding: 10px;
+}
+
+.cart-item h2 {
+  font-size: 20px;
+}
+
+.cart-item span {
+  font-size: 14px;
+}
+
+.cart-control-btn {
+  border: none;
+  background-color: orange;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.quantity-btn-group {
+  margin-top: 20px;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.proceed-btn {
+  border: none;
+  padding: 15px;
+  width: 100%;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+
+.proceed-btn:hover {
+  background-color: orange;
+}
